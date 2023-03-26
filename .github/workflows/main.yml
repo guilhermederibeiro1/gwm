@@ -1,7 +1,7 @@
-name: Deploy via ftp
 on: 
     push:
       branches: -main
+name: Deploy via ftp
 jobs:
   deploy:
     name: Deploy
